@@ -1,9 +1,12 @@
 import "./App.css";
+import Header from "./components/Header/Header";
+import ShopCart from "./components/ShopCart/ShopCart";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hellow</h1>
+    <div>
+      <Header></Header>
+      <ShopCart></ShopCart>
     </div>
   );
 }

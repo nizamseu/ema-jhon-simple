@@ -1,0 +1,17 @@
+.products {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+.product-info {
+  margin: 5px;
+  padding: 5px;
+}
+.btn {
+  background-color: goldenrod;
+  width: 200px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
