@@ -3,3 +3,15 @@
   grid-template-columns: 3fr 1fr;
   margin-left: 20px;
 }
+.search {
+  background-color: rgba(15, 15, 15, 0.548);
+  text-align: center;
+  line-height: 50px;
+}
+.search input {
+  width: 75%;
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  border: none;
+}
