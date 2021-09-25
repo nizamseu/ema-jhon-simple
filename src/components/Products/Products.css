@@ -2,6 +2,7 @@
   display: flex;
   margin: 10px;
   padding: 10px;
+  border-bottom: 1px solid lightgray;
 }
 .product-info {
   margin: 5px;

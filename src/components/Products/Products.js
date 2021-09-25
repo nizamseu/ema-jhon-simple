@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Rating from "react-rating";
 import "./Products.css";
+
 const Products = (props) => {
   const handleAdd = props.handleAdd;
   const { name, img, stock, price, seller, star } = props.product;
+
   return (
     <div className="products">
       <img src={img} alt="" />

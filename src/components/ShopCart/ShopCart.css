@@ -15,3 +15,7 @@
   margin: 10px;
   border: none;
 }
+.product-container {
+  border-right: 1px solid lightgray;
+  margin-right: 10px;
+}
